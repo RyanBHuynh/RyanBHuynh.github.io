@@ -1,10 +1,13 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-Some information about you!
+Hi there!
+
+I'm Ryan Huynh, a student at the University of Missouri. I'm majoring in computer science and statistics. 
+Here is where I plan on writing introductions to computer science concepts and hosting personal projects.
 
 ### More Information
 
