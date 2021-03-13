@@ -3,8 +3,6 @@ layout: post
 title: Linked Lists
 ---
 
-### What are linked lists?
-
 A linked list is a data structure that implements a list using nodes that point to successive members of a list. Below is a picture of a linked list.
 
 ![_config.yml]({{ site.baseurl }}/images/threeNodeLinkedList.png)
