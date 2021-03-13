@@ -21,3 +21,11 @@ Linked lists have a number of advantages over a traditional array
 ### Disadvantages of a linked list
 * Searching by index is slower with a linked list than an array. You have to traverse through the linked list until you reach your desired index.
 * A pointer has to be stored with each item in a linked list. In arrays, you only need to store the item itself.
+
+### More resources
+
+Below are some more resources to learn about linked lists:
+
+[Linked List Data Structure by GeeksForGeeks](https://www.geeksforgeeks.org/data-structures/linked-list/)
+
+[YouTube - Data Structures: Linked Lists by HackerRank](https://www.youtube.com/watch?v=njTh_OwMljA)
