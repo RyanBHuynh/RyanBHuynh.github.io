@@ -27,7 +27,7 @@ Some functions that we can create include:
 ## Advantages of a linked list
 Linked lists have a number of advantages over a traditional array:
 * Linked lists don't have a defined size. This means you can easily change the size of a linked list by adding or removing items. You can't change the size of an array.
-* Linked lists are not stored in one contiguous block of memory, but arrays have to be.
+* Linked lists are not stored in one contiguous block of memory, but arrays are.
 * Adding or removing items from a linked list is much faster than with a normal array. You don't have to shift items as you do with arrays.
 
 ## Disadvantages of a linked list
