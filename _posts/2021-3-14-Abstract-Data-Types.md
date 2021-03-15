@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Linked Lists
+title: Abstract Data Types
 ---
 
 An abstract data type (ADT) is a concept that defines a data type by how it interacts with the user.
