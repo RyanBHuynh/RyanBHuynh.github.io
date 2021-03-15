@@ -15,7 +15,7 @@ ADTs don't specify how the data type is implemented. That's where the *abstract*
 
 Here's another example: a list ADT. What characteristics do we want a list ADT to have? Ideally, a list ADT could:
 * Store elements of one or more data types.
-* Write or modify elements at a specified position.
+* Write or modify elements at a particular position.
 * Read an element from a particular position.
 * Insert or remove elements.
 * Count the number of elements in the list.
