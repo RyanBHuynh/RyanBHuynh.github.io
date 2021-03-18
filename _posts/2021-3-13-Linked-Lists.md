@@ -22,7 +22,26 @@ Some functions that we can create include:
 * A function that deletes an item at a certain index.
 * A function that can search for an item, either by index or directly for the item itself.
 * A function that deletes a specific item.
-* A function that prints the entire linked list, regardless of how big the linked list is. 
+* A function that returns the size of the linked list. 
+
+#### A function that adds an item at a certain index
+Assume we want the function to insert the letter B at index 1.
+To implement a function like this, we need it to do the following steps:
+1. Create a node and store B in the node.
+2. Assign the new node's next pointer to the node at index 1.
+3. Reassign the next pointer of the node at index 0 so that it points to the new node.
+
+To insert an item at index 0 (also known as the head):
+1. Create the new node and store the item in the node.
+2. Assign the new node's next pointer to the head node.
+3. Reset the head of the linked list to the new node.
+
+To insert an item at the tail:
+1. Check whether the index is in a valid range. The index can't be negative or larger than the size of the linked list.
+2. Check if the index is at the tail. If we start indexing at 0, then the tail should be the size of the linked list.
+3. Create the new node and store the item in the node.
+4. Assign the new node's next pointer to NULL, since it becomes the new tail node in the linked list.
+5. Set the old tail's next pointer to the new tail node.
 
 ## Advantages of a linked list
 Linked lists have a number of advantages over a traditional array:
