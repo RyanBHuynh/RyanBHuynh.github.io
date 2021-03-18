@@ -5,7 +5,7 @@ title: Linked Lists
 
 A linked list is a data structure that implements a list using nodes that point to successive members of a list. Below is a picture of a linked list with four nodes.
 
-![_config.yml]({{ site.baseurl }}/images/fourNodeLinkedList.png)
+![_config.yml]({{ site.baseurl }}/images/LinkedList/fourNodeLinkedList.png)
 
 ## Characteristics of a linked list
 Each node consists of two parts: the data and a pointer to the next node. Each linked list has a starting node called the head. 
@@ -30,6 +30,13 @@ To implement a function like this, we need it to do the following steps:
 1. Create a node and store B in the node.
 2. Assign the new node's next pointer to the node at index 1.
 3. Reassign the next pointer of the node at index 0 so that it points to the new node.
+
+
+![_config.yml]({{ site.baseurl }}/images/LinkedList/beforeInsertingAtIndex1.png)
+
+![_config.yml]({{ site.baseurl }}/images/LinkedList/InsertingItemAtIndex1.png)
+
+![_config.yml]({{ site.baseurl }}/images/LinkedList/AfterInsertingAtIndex1.png)
 
 To insert an item at index 0 (also known as the head):
 1. Create the new node and store the item in the node.
