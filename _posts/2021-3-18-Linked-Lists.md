@@ -50,6 +50,25 @@ To insert an item at the tail:
 4. Assign the new node's next pointer to NULL, since it becomes the new tail node in the linked list.
 5. Set the old tail's next pointer to the new tail node.
 
+#### A function that deletes an item at a certain index
+Make sure the function checks whether the index is at the head or at the tail
+
+To delete an item at index 0:
+1. Set the head to the node after the head node.
+2. Free the head node.
+
+To delete an item at the tail:
+1. Create a node that traverses the linked list up to the node that points to the tail node.
+2. Set the next pointer of that node to NULL.
+3. Free the tail node.
+
+To delete an item somewhere in the middle:
+1. Create a node that traverses the linked list up to the node that points to the node to delete.
+2. Reassign that node's next pointer to point to the node after the node to delete.
+3. Free the deleted node.
+
+![_config.yml]({{ site.baseurl }}/images/LinkedList/DeletingAtIndex2.png)
+
 ## Advantages of a linked list
 Linked lists have a number of advantages over a traditional array:
 * Linked lists don't have a defined size. This means you can easily change the size of a linked list by adding or removing items. You can't change the size of an array.
