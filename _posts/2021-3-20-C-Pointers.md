@@ -6,11 +6,12 @@ title: Pointers in C
 In computers, memory stores information that the computer needs right now. 
 This is different from storage, which is used to hold information over long periods of time.   
 In C, pointers are variables that store memory addresses. Memory addresses point to locations in memory, much like how a house address points to someone's house. 
+
 Variables are stored in memory, so we can use pointers to access those variables.
 Pointers can be of a specific data type, like an integer pointer or a character pointer. They can also be of any data type, like a void pointer.
 
 ### Declaring and initializing pointers
-Here is how you declare an integer pointer in C:
+Here is how you declare an integer pointer in C:  
 <span style="Courier New">
 int* intPtr;
 </span>
@@ -18,12 +19,12 @@ int* intPtr;
 As you can see, we have the data type int followed by an asterisk. The asterisk indicates that the variable is a pointer.
 
 Below, we have an integer variable called foo which has the value 3.
-Here is an example of assigning a memory address to a pointer:
+Here is an example of assigning a memory address to a pointer:  
 <span style="Courier New">
-int foo = 3;
-int* intPtr;
+int foo = 3;  
+int* intPtr;  
 
-intPtr = &foo;
+intPtr = &foo;  '
 </span>
 
 The "&" in front of <span style="Courier New">foo</span> means "the memory address of". So <span style="Courier New">&foo</span> is the address of <span style="Courier New">foo</span>.
@@ -37,10 +38,10 @@ So if the pointer <span style="Courier New">intPtr</span>  points to <span style
 
 To dereference a pointer, we would type this: <span style="Courier New">*intPtr</span>
 Because <span style="Courier New">intPtr<\span> points to <span style="Courier New">foo</span>, if we print both <span style="Courier New">*intPtr</span> and <span style="Courier New">foo</span> out, we would get the same values.
-That is, if we ran the following code, the number 3 would be printed on both lines:
+That is, if we ran the following code, the number 3 would be printed on both lines:  
 <span style="Courier New">
-printf("%d\n",foo);
-printf("%d\n",*intPtr);
+printf("%d\n",foo);  
+printf("%d\n",*intPtr);  
 </span>
 
 ![_config.yml]({{ site.baseurl }}/images/LinkedList/fourNodeLinkedList.png)
