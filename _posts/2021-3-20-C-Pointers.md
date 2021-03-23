@@ -19,12 +19,9 @@ As you can see, we have the data type int followed by an asterisk. The asterisk 
 
 Below, we have an integer variable called foo which has the value 3.
 Here is an example of assigning a memory address to a pointer:  
-<span style="Courier New">
 int foo = 3;  
 int* intPtr;  
-
 intPtr = &foo;  
-</span>
 
 The "&" in front of <span style="Courier New">foo</span> means "the memory address of".
 Putting all of this together, <span style= "Courier New">intPtr = &foo</span> says "assign the memory address of <span style="Courier New">foo</span> to the pointer <span style="Courier New">intPtr</span>".
