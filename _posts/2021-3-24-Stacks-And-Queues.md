@@ -18,7 +18,7 @@ Popping from a stack means removing an item from the top and returning it back t
 These two functions make stacks a last-in-first-out (LIFO) data structure. This means the last item pushed onto a stack will be the first item popped from the stack.
 
 ## Queues
-Queues are a special List ADT where items are added to the end and removed from the front.
+Queues are a special List ADT where items are added to the back and removed from the front.
 Like stacks, queues have two main functions to add and delete items.
 
 ### Queue Functions
