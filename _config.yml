@@ -16,6 +16,9 @@ show-avatar: false
 # Flags below are optional
 #
 
+# Mathjax support
+markdown: kramdown
+
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
