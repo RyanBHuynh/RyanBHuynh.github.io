@@ -28,23 +28,13 @@ We only have one term, so there is no need to worry about non-dominant terms.
 After following these steps, we find that the Big O complexity is \\(O(1)\\).
 
 ### Example Complexities
-Below is a list of example runtimes:
-
+Below is a list of example runtimes:  
 
 | Runtime        | Big O Notation  | Example Algorithm             |
 |----------------|-----------------|-------------------------------|
 | Constant time  | \\(O(1)\\)      | Accessing an array element    |
 | Linear time    | \\(O(n)\\)      | Finding the sum of an array   |
 | Quadratic time | \\(O(n^2)\\)    | Finding the sum of a 2D array |
-
-
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
-
-$$ E = m\cdot c^2 \label{eq:mc2}$$
 
 ## More resources
 Below are some more resources to learn about Big O Notation:
