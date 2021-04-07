@@ -20,7 +20,7 @@ For example, look at the following two lines of C code:
 ![_config.yml]({{ site.baseurl }}/images/BigONotation/FooAndBar.png)
 
 1. Assigning values to variables takes constant time. This means that no matter how large the value is, assigning it to a variable takes the same amount of time.
-In Big O terms, constant time is \\(O(1)\\) (pronounced big-oh of one). Because both lines are O(1), adding \\(O(1) + O(1) = O(2)\\). 
+In Big O terms, constant time is \(O(1)\) (pronounced big-oh of one). Because both lines are O(1), adding \\(O(1) + O(1) = O(2)\\). 
 2. We can actually simplify \\(O(2)\\) by treating 2 as a constant: \\(O(2) = O(2 \bullet 1)\\). Because we remove the constant, this simplifies down to \\(O(1)\\).
 We only have one term, so there is no need to worry about non-dominant terms.
 3. Luckily for the above lines of code, the best-case, average-case, and worst-case scenario are all the same.
