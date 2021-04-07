@@ -30,8 +30,8 @@ After following these steps, we find that the Big O complexity is \\(O(1)\\).
 ### Example Complexities
 Below is a list of example runtimes:  
 
-| Runtime        | Big O Notation  | Example Algorithm             |
 |----------------|-----------------|-------------------------------|
+| Runtime        | Big O Notation  | Example Algorithm             |
 | Constant time  | \\(O(1)\\)      | Accessing an array element    |
 | Linear time    | \\(O(n)\\)      | Finding the sum of an array   |
 | Quadratic time | \\(O(n^2)\\)    | Finding the sum of a 2D array |
