@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Big O Notation
+usemathjax: true
 ---
 
 Big O (big-oh) notation gives computer scientists a way to show how complex an algorithm is.
@@ -35,6 +36,8 @@ Below is a list of example runtimes:
 | Constant time  | \\(O(1)\\)      | Accessing an array element    |
 | Linear time    | \\(O(n)\\)      | Finding the sum of an array   |
 | Quadratic time | \\(O(n^2)\\)    | Finding the sum of a 2D array |
+
+$$E=mc^2$$
 
 ## More resources
 Below are some more resources to learn about Big O Notation:
