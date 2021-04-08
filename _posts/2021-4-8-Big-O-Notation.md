@@ -29,7 +29,7 @@ After following these steps, we find that the Big O complexity is \\(O(1)\\).
 ### Example 2
 Let's find the time complexity of the following lines of code, which finds the sum of a 1D array:
 
-![_config.yml]({{ site.baseurl }}/images/BigONotation/SumOfArray.png)
+![_config.yml]({{ site.baseurl }}/images/BigONotation/SumArray.png)
 
 1. The first two lines are declaration/assignment statements, so they both take \\(O(1)\\) time.  
 Likewise, the code in the while loop takes \\(O(1)\\) time since addition takes constant time.  
