@@ -53,5 +53,6 @@ Below is a list of example runtimes and how to represent them in Big O:
 Below are some more resources to learn about Big O Notation:
 
 [Big O Cheat Sheet](https://www.bigocheatsheet.com/)
+
 [YouTube - Big-O Notation in 5 minutes by Michael Sambol](https://www.youtube.com/watch?v=__vX2sjlpXU)
 
