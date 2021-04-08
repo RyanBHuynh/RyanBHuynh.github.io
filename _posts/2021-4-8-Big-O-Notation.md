@@ -34,7 +34,7 @@ Let's find the time complexity of the following lines of code, which finds the s
 1. The first two lines are declaration/assignment statements, so they both take \\(O(1)\\) time.  
 Likewise, the code in the while loop takes \\(O(1)\\) time since addition takes constant time.  
 However, the while loop itself runs n times, depending on the size of the array. This means the time complexity for the while loop is \\(O(n)\\).
-2. We combine all of step one as follows: \\(O(1) + O(1) + O(n) \bullet (O(1) + O(1))\\).  
+2. We combine all of step one as follows: \\(O(1) + O(1) + O(n) \times (O(1) + O(1))\\).  
 Because we ignore non-dominant terms, we can safely ignore each \\(O(1)\\). Now, the time complexity is \\(O(n)\\).
 
 Our final answer is \\(O(n)\\).
