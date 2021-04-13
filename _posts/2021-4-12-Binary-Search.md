@@ -38,7 +38,7 @@ Because \\(8 > 6\\), we move the low index up so that it points to 7.
 Then we check what the middle index points to, and it points to 8.  
 The index we are looking for is 5.
 
-## Runtime of Binary Search
+## Time Complexity
 Best case time complexity: \\(O(1)\\)   
 This happens when the number we're looking for lands directly in the middle of the array.  
 Average time complexity: \\(O(log \ n)\\)  
