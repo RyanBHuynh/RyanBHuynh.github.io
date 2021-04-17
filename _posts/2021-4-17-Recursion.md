@@ -3,7 +3,7 @@ layout: post
 title: Recursion
 ---
 
-Recursion solves large problems by breaking the problem into smaller problems, then combining the solutions to the smaller problems into one big solution.
+[Recursion](https://ryanbhuynh.github.io/Recursion/) solves large problems by breaking a large problem into smaller problems, then combining the solutions to the smaller problems into one big solution.
 
 ## How Recursion Works
 Recursive algorithms have two steps:
@@ -11,7 +11,8 @@ Recursive algorithms have two steps:
 2. The recursive step
 
 The base case is the step that breaks out of a recursive loop. This step is a lot like the condition in a for loop or a while loop.
-The recursive step is the part where the program solves a smaller version of the problem. This is done when a function calls itself inside the function.
+
+The recursive step is the part where the program solves a smaller version of the problem. 
 
 ## Factorial Example 
 Suppose we want a program that returns the factorial of an integer.
@@ -32,10 +33,11 @@ The program with recursion looks like this:
 Here, the first two if statements are the base case. 
 It's impossible to find the factorial of a negative number, so we want to make sure n is not negative.
 Otherwise the function would go haywire.
+
 The second if statement makes sure that the function returns 1 when n equals zero or n equals one, since \\(0!\\) and \\(1!\\) both equal one.
 
 The recursive step is inside the else statement. It multiplies n by the number that comes before n, all the way up until n equals one.
-We can tell this is a recursive function because the function calls itself inside the function.
+We can tell this is a recursive function because the function calls itself inside the function with a smaller version of the same problem.
 
 ## More resources
 Below are some more resources to learn about recursion:
