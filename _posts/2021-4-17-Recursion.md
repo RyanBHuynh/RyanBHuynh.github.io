@@ -37,6 +37,7 @@ Otherwise the function would go haywire.
 The second if statement makes sure that the function returns 1 when n equals zero or n equals one, since \\(0!\\) and \\(1!\\) both equal one.
 
 The recursive step is inside the else statement. It multiplies n by the number that comes before n, all the way up until n equals one.
+
 We can tell this is a recursive function because the function calls itself inside the function with a smaller version of the same problem.
 
 ## More resources
