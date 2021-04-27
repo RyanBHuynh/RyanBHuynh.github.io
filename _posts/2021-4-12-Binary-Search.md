@@ -45,8 +45,8 @@ This happens when the number we're looking for lands directly in the middle of t
 Average time complexity: \\(O(log \ n)\\)  
 Worst case time complexity: \\(O(log \ n)\\)
 
-## More resources
-Below are some more resources to learn about Binary Search:
+## More Resources
+Below are some more resources to learn about binary search:
 
 [GeeksforGeeks - Binary Search](https://www.geeksforgeeks.org/binary-search/)
 

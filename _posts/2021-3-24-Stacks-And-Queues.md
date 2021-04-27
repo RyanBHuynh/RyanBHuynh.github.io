@@ -28,7 +28,7 @@ Enqueuing adds an item to the back of a queue, while dequeuing removes an item f
 
 These functions make queues a first-in-first-out (FIFO) data structure. The first item put into the queue will be the first item removed from the queue.
 
-## More resources
+## More Resources
 Below are some more resources to learn about stacks and queues:
 
 [YouTube - CS50: Stacks](https://www.youtube.com/watch?v=hVsNqhEthOk)

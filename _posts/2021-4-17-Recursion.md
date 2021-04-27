@@ -40,7 +40,7 @@ The recursive step is inside the else statement. It multiplies n by the number t
 
 We can tell this is a recursive function because the function calls itself inside the function with a smaller version of the same problem.
 
-## More resources
+## More Resources
 Below are some more resources to learn about recursion:
 
 [GeeksforGeeks - Recursion](https://www.geeksforgeeks.org/recursion/)

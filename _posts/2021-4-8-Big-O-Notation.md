@@ -9,7 +9,7 @@ Big O (big-oh) notation gives computer scientists a way to show a program's time
 Time complexity is the time it takes to run a program.
 Big O is the notation used to represent time complexity as the program's input size increases.
 
-## Finding a program's time complexity
+## Finding a Program's Time Complexity
 ### Example 1
 To find a program's big O complexity, we need to accomplish the following tasks:
 1. Find the big O complexity of each line and add them all up.
@@ -49,7 +49,7 @@ Below is a list of example runtimes and how to represent them in Big O:
 | Quadratic time   | \\(O(n^2)\\)    | Finding the sum of a 2D array    |
 | Logarithmic time | \\(O(log(n))\\) | Using binary search              |
 
-## More resources
+## More Resources
 Below are some more resources to learn about Big O Notation:
 
 [Big O Cheat Sheet](https://www.bigocheatsheet.com/)

@@ -7,7 +7,7 @@ A linked list is a data structure that implements a list using nodes that point 
 
 ![_config.yml]({{ site.baseurl }}/images/LinkedList/fourNodeLinkedList.png)
 
-## Characteristics of a linked list
+## Characteristics of a Linked List
 Each node consists of two parts: the data and a pointer to the next node. Each linked list has a starting node called the head. 
 The head has an **item** and a **next pointer** pointing to the next node in the linked list. 
 That node has an item and a next pointer pointing to another node, and so on.
@@ -15,7 +15,7 @@ That node has an item and a next pointer pointing to another node, and so on.
 This happens up until the last node. The last node has an item and a next pointer pointing to NULL.
 The last node can also be called the tail node.
 
-## Linked list functions
+## Linked List Functions
 Once we create our linked list, we can create various functions that let users interact with the linked list.
 Some functions that we can create include:
 * A function that adds an item at a certain index.
@@ -80,7 +80,7 @@ However, linked lists do have some disadvantages:
 * Searching by index is slower with a linked list than an array. You have to traverse through the linked list until you reach your desired index.
 * A pointer has to be stored with each item in a linked list. In arrays, you only need to store the item itself. This means that a linked list uses more storage than an array of the same size.
 
-## More resources
+## More Resources
 
 Below are some more resources to learn about linked lists:
 
