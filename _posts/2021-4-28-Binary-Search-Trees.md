@@ -16,28 +16,31 @@ The root node of a binary search tree has all of the following:
 - The right node is greater than the root node.
 - Each subtree is a binary search tree.
 
-Empty trees are also binary search trees.
+Empty trees are binary search trees.
 
 ## Binary Search Tree Functions
-Below are a selection of possible binary search tree functions:  
+Here are example algorithms for search and insert functions.
 
 ### Search Function
-Here is the algorithm to determine if a number is in a BST:  
-1. If the root node is NULL, return False.
-2. If the number is root node, return True.
-3. If the number is less than the root node, search the left node.
-4. If the number is greater than the root node, search the right node.
+Here is the algorithm to determine if a number is in a binary search tree:  
+1. Pass the root node and the number to search for into the search function.
+2. If the node is NULL, return False.
+3. If the number is the node, return True.
+4. If the number is less than the node, search the left node.
+5. If the number is greater than the node, search the right node.
 
 ### Insert Node Function
-Here is the algorithm to insert a number into a BST:
-1. Pass the root node and the number to insert into the function.
+Here is the algorithm to insert a number into a binary search tree:
+1. Pass the root node and the number to insert into the insert function.
 2. If the node is NULL, return a new node that stores the number.
 3. If the number is greater than the node, call the insert function on the right node.
 4. If the number is less than the node, call the insert function on the left node.
 5. Return the root node when all is said and done.
 
+This function always inserts new nodes at leaf nodes.
+
 ## Time Complexity
-The time complexities for searching, inserting into, or deleting from a binary search tree are listed below:  
+Here are the time complexities for searching, inserting into, or deleting from a binary search tree:  
 Average time complexity: \\(O(log \ n)\\)  
 Worst-case time complexity: \\(O(n)\\)  
 
