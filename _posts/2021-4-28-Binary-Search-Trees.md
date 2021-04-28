@@ -33,8 +33,8 @@ Here is the algorithm to determine if a number is in a binary search tree:
 Here is the algorithm to insert a number into a binary search tree:
 1. Pass the root node and the number to insert into the function.
 2. If the node is NULL, return a new node that stores the number.
-3. If the number is greater than the node, call the insert function on the right node.
-4. If the number is less than the node, call the insert function on the left node.
+3. If the number is less than the node, call the insert function on the left node.
+4. If the number is greater than the node, call the insert function on the right node.
 5. Return the root node when all is said and done.
 
 This function always inserts new nodes at leaf nodes.
