@@ -22,18 +22,22 @@ Empty trees are also binary search trees.
 Below are a selection of possible binary search tree functions:  
 
 ### Search Function
-Here's the algorithm to determine if a number is in a BST:  
+Here is the algorithm to determine if a number is in a BST:  
 1. If the root node is NULL, return False.
 2. If the number is root node, return True.
 3. If the number is less than the root node, search the left node.
 4. If the number is greater than the root node, search the right node.
 
 ### Insert Node Function
-
-### Delete Node Function
+Here is the algorithm to insert a number into a BST:
+1. Pass the root node and the number to insert into the function.
+2. If the node is NULL, return a new node that stores the number.
+3. If the number is greater than the node, call the insert function on the right node.
+4. If the number is less than the node, call the insert function on the left node.
+5. Return the root node when all is said and done.
 
 ## Time Complexity
-For searching, inserting into, or deleting from a binary search tree:  
+The time complexities for searching, inserting into, or deleting from a binary search tree are listed below:  
 Average time complexity: \\(O(log \ n)\\)  
 Worst-case time complexity: \\(O(n)\\)  
 
