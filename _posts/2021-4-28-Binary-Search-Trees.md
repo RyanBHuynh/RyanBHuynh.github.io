@@ -5,11 +5,6 @@ title: Binary Search Trees
 
 A binary search tree (BST) is a tree data structure set up to make binary search efficient.
 
-## Example Binary Search Tree
-Below is a picture of a BST:
-
-![_config.yml]({{ site.baseurl }}/images/BinarySearchTrees/BST.png)
-
 ## Characteristics of Binary Search Trees
 The root node of a binary search tree has all of the following:
 - The left node is less than the root node.
@@ -18,12 +13,17 @@ The root node of a binary search tree has all of the following:
 
 Empty trees are binary search trees.
 
+## Example Binary Search Tree
+Below is a picture of a BST:
+
+![_config.yml]({{ site.baseurl }}/images/BinarySearchTrees/BST.png)
+
 ## Binary Search Tree Functions
 Here are example algorithms for search and insert functions.
 
 ### Search Function
 Here is the algorithm to determine if a number is in a binary search tree:  
-1. Pass the root node and the number to search for into the search function.
+1. Pass the root node and the number to search for into the function.
 2. If the node is NULL, return False.
 3. If the number is the node, return True.
 4. If the number is less than the node, search the left node.
@@ -31,7 +31,7 @@ Here is the algorithm to determine if a number is in a binary search tree:
 
 ### Insert Node Function
 Here is the algorithm to insert a number into a binary search tree:
-1. Pass the root node and the number to insert into the insert function.
+1. Pass the root node and the number to insert into the function.
 2. If the node is NULL, return a new node that stores the number.
 3. If the number is greater than the node, call the insert function on the right node.
 4. If the number is less than the node, call the insert function on the left node.
