@@ -46,7 +46,7 @@ Steps for a max heapify function:
 3. Create a \\(leftIndex\\) variable and set it to \\(2i+1\\).
 4. Create a \\(rightIndex\\) variable and set it to \\(2i+2\\).
 5. If \\(A[leftIndex]\\) or \\(A[rightIndex]\\) is larger than \\(A[largestIndex]\\), set \\(largestIndex\\) to the index of the new largest value.
-6. If \\(largestIndex \ != i\\):
+6. If \\(largestIndex\\) does not equal \\(i\\):
  - Swap \\(A[i]\\) and \\(A[largestIndex]\\)
  - Heapify \\(A\\) at index \\(largestIndex\\)
 
@@ -56,7 +56,7 @@ This function converts an array into a max heap.
 Steps:
 1. Let \\(i = \frac{n}{2} - 1\\) and \\(n\\) equal the size of \\(A\\).
 2. Call heapify on \\(A[i]\\).
-3. Subtract \\(i\\) by 1.
+3. Subtract \\(i\\) by \\(1\\).
 4. Repeat steps 2-3 until \\(i\\) equals \\(-1\\).
 
 The largest value in a max heap is always the first array element.
@@ -68,13 +68,15 @@ Steps:
 1. Let \\(n\\) equal the size of \\(A\\).
 2. Call build max heap on \\(A\\).
 3. Since \\(A[0]\\) is the largest value, we swap the first and last array elements to move the largest value to the end.
-4. Subtract \\(n\\) by 1 since the last array element is already sorted.
+4. Subtract \\(n\\) by \\(1\\) since the last array element is already sorted.
 5. Call heapify on \\(A[0]\\) to make the next largest element the root node.
 6. Repeat steps 2-5 until \\(n\\) equals \\(0\\).
 
 ## Time Complexity
 Heapify time complexity: \\(O(log \ n)\\)
-Build max heap time complexity: \\(O(n)\\)  
+
+Build max heap time complexity: \\(O(n)\\) 
+
 Heapsort time complexity: \\(O(n \ log \ n)\\)  
 
 ## More Resources
