@@ -21,7 +21,7 @@ Below is a picture of a max heap:
 ## Representing Heaps as Arrays
 Suppose we want to store the above heap as an array, called \\(A\\).
 We can represent a heap as an array if we follow these rules:
- - The root node of the heap is A[0]
+ - The root node of the heap is \\(A[0]\\)
  - The parent of a node with index \\(i\\) is at index \\(\lfloor \frac{i}{2} \rfloor \\)
  - The left child of index \\(i\\) is at index \\(2i+1\\)
  - The right child of index \\(i\\) is at index \\(2i+2\\)
@@ -46,7 +46,7 @@ Steps for a max heapify function:
 3. Create a \\(leftIndex\\) variable and set it to \\(2i+1\\).
 4. Create a \\(rightIndex\\) variable and set it to \\(2i+2\\).
 5. If \\(A[leftIndex]\\) or \\(A[rightIndex]\\) is larger than \\(A[largestIndex]\\), set \\(largestIndex\\) to the index of the new largest value.
-6. If \\(largestIndex != i\\):
+6. If \\(largestIndex \ != i\\):
  - Swap \\(A[i]\\) and \\(A[largestIndex]\\)
  - Heapify \\(A\\) at index \\(largestIndex\\)
 
@@ -81,4 +81,5 @@ Heapsort time complexity: \\(O(n \ log \ n)\\)
 Below are some more resources to learn about heaps and heapsort:
 
 [GeeksforGeeks - Heap Data Structure](https://www.geeksforgeeks.org/heap-data-structure/)
+
 [GeeksforGeeks - HeapSort](https://www.geeksforgeeks.org/heap-sort/)
