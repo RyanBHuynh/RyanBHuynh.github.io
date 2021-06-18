@@ -10,7 +10,7 @@ Then, the merge function puts the chunks back together in sorted order.
 
 ## Functions
 There are two important functions related to merge sort:
-- Merge: This function combines two arrays in sorted order.
+- Merge: This function sorts two arrays by combining them in order.
 - Merge sort: This function creates the two halves to merge together with the merge function. 
 It also calls itself on the left and right halves in order to sort them.
 
@@ -25,9 +25,11 @@ Steps for the merge sort function:
 5. Call the merge function to combine the left and right halves in sorted order.
 6. Continue until each half has a size of 1. This is the base case.
 
+
 Merge function steps:
 1. Pass in the original array, the left array, and the right array. We assume the left and right arrays are sorted.
-2. Add the smallest element from either the left or the right array to the original array.
+2. Add the smallest element from either the left or the right array to the original array, starting at index 0.
+This will write over the original array elements.
 3. Repeat step 2 until one of the halves are empty.
 4. Add the remaining elements from the leftover array.
 
