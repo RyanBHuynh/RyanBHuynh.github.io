@@ -25,7 +25,6 @@ Steps for the merge sort function:
 5. Call the merge function to combine the left and right halves in sorted order.
 6. Continue until each half has a size of 1. This is the base case.
 
-
 Merge function steps:
 1. Pass in the original array, the left array, and the right array. We assume the left and right arrays are sorted.
 2. Add the smallest element from either the left or the right array to the original array, starting at index 0.
