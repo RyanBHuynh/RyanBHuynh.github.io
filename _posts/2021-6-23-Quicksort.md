@@ -17,7 +17,7 @@ The function then returns the pivot value.
 
 ## Choosing the Pivot Value
 How the pivot value is chosen ultimately affects the average time complexity for Quicksort.
-Oftentimes, the first element or last element is chosen as the pivot value. 
+Oftentimes, the first element or last element is always chosen as the pivot value. 
 However, for sorted arrays, this can lead to \\(O(n^2)\\) time complexity.
 This is because the largest or smallest element in the array is chosen as the pivot. 
 When the array is partitioned, one half has no elements, while the other half has \\(n-1\\) elements.
@@ -25,8 +25,16 @@ When the array is partitioned, one half has no elements, while the other half ha
 The best-case runtime happens when the median is chosen every time as the pivot.
 Choosing the median as the pivot divides the array into two equal halves, resulting in \\(O (n \ log \ n)\\) runtime.
 
+If the pivot is chosen randomly, this will result in average \\(O (n \ log \ n)\\) runtime. 
+Choosing the largest or smallest element each time now becomes exceedingly rare. 
+This means that while \\(O(n^2)\\) runtime is possible, it is very unlikely.
+
+Another method is to select three random array elements and use the median of the three values as the pivot value.
+This ensures that the largest or smallest element is never chosen, but more comparisons are made in order to choose the pivot.
+
 ## Partition Function Steps
 Suppose we have an array \\(A\\) that we want to partition.
+
 Steps for the partition function:
 1. Pass an array \\(A\\), the low index, and the high index into the partition function. The indices determine the search space for the function.
 2. Choose the last element of the array as the pivot value.
@@ -36,7 +44,7 @@ Steps for the partition function:
 5. If \\(A[j]\\) is less than the pivot value, swap it with \\(A[i]\\) and increment \\(i\\) by 1. 
 This step moves smaller elements to the front of the array.
 6. When the for loop finishes, swap \\(A[i]\\) with \\(A[high \ index]\\).
-This step puts the pivot value in the right spot in the array.
+This step puts the pivot value in the right spot in the array. All elements greater than the pivot value are not after it in the array.
 7. \\(i\\) now marks the index location of the pivot value. Return \\(i\\).
 
 ## Quicksort Function Steps
@@ -49,7 +57,10 @@ Steps for quicksort:
 
 ## Time Complexity
 Partition time complexity: \\(O(n)\\)
-Quicksort time complexity: \\(O(n \ log \ n)\\)
+
+Quicksort average time complexity: \\(O(n \ log \ n)\\)
+
+Quicksort worst-case time complexity: \\(O(n^2)\\)
 
 ## More Resources
 Below are some more resources to learn about quicksort:
@@ -57,3 +68,5 @@ Below are some more resources to learn about quicksort:
 [GeeksforGeeks - Quicksort](https://www.geeksforgeeks.org/quick-sort/)
 
 [YouTube - Quicksort by HackerRank](https://www.youtube.com/watch?v=SLauY6PpjW4)
+
+[YouTube - The Quicksort Sorting Algorithm by Back to Back SWE](https://www.youtube.com/watch?v=uXBnyYuwPe8)
