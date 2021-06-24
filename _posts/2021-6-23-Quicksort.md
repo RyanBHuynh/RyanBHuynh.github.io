@@ -16,7 +16,8 @@ The function then returns the pivot value.
 ![_config.yml]({{ site.baseurl }}/images/Quicksort/Quicksort.png)
 
 ## Choosing the Pivot Value
-How the pivot value is chosen ultimately affects the average time complexity for Quicksort.
+How the pivot value is chosen ultimately affects the Quicksort's time complexity.
+
 Oftentimes, the first element or last element is always chosen as the pivot value. 
 However, for sorted arrays, this can lead to \\(O(n^2)\\) time complexity.
 This is because the largest or smallest element in the array is chosen as the pivot. 
@@ -34,6 +35,7 @@ This ensures that the largest or smallest element is never chosen, but more comp
 
 ## Partition Function Steps
 Suppose we have an array \\(A\\) that we want to partition.
+For simplicity, we will choose the last array element as the pivot each time.
 
 Steps for the partition function:
 1. Pass an array \\(A\\), the low index, and the high index into the partition function. The indices determine the search space for the function.
