@@ -58,7 +58,7 @@ Steps for quicksort:
 5. Call quicksort on all elements after the pivot index.
 
 ## Time Complexity
-Partition time complexity: \\(O(n)\\)
+Partition function time complexity: \\(O(n)\\)
 
 Quicksort average time complexity: \\(O(n \ log \ n)\\)
 
