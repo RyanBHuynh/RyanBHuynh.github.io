@@ -8,7 +8,7 @@ Hash tables (or hash maps) are data structures that store data in arrays accordi
 ## Parts of a Hash Table
 There are two main components to a hash table:
 1. Hash functions take in a key value and return an array location to store the data.
-2. An array is used to store the data.
+2. An array to store the data.
 
 A good hash function minimizes the number of collisions by uniformly distributing the hash values.
 
@@ -25,10 +25,10 @@ There are a couple of ways around this issue:
 In the image above, the keys Carlos and Chuck were put in the same array location. 
 A linked list was created so that Carlos could be put in the array.
 
-## Pros and Cons of Hash Tables
+## Pros and Cons
 Pros:
 - Search, insert, and delete functions run in constant time, on average.
-- If the hash table uses chaining to resolve collisions, the size of the hash table can change while maintaining rapid access speed.
+- If the hash table uses chaining to resolve collisions, the size of the hash table can increase while maintaining rapid access speed.
 
 Cons:
 - If there are too many collisions, then the hash table becomes less efficient.
@@ -48,5 +48,5 @@ Search average time complexity: \\(O(1)\\)
 Below are some more resources to learn about hash tables:
 
 [GeeksforGeeks - Hashing Data Structure](https://www.geeksforgeeks.org/hashing-data-structure/)
-[YouTube - CS50 Hash Tables](https://www.youtube.com/watch?v=nvzVHwrrub0)
 
+[YouTube - CS50 Hash Tables](https://www.youtube.com/watch?v=nvzVHwrrub0)
