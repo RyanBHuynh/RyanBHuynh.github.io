@@ -4,7 +4,7 @@ title: Vectors and ArrayLists
 ---
 
 Vectors and ArrayLists are arrays without a preset size. 
-This allows the vector to automatically adjust to the number of elements it currently stores.
+This allows the vector or the ArrayList to automatically adjust to the number of elements it currently stores.
 
 ## Basics of Vectors
 Vectors in C++ are called ArrayLists in Java. 
@@ -50,4 +50,5 @@ Insert or delete at the end of vector average time complexity: \\(O(1)\\)
 Below are some more resources to learn about Vectors and ArrayLists:
 
 [GeeksforGeeks - Vector in C++ STL](https://www.geeksforgeeks.org/vector-in-cpp-stl/)
+
 [W3Schools - Java ArrayList](https://www.w3schools.com/java/java_arraylist.asp)
