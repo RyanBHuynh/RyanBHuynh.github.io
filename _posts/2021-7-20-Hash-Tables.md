@@ -49,4 +49,4 @@ Below are some more resources to learn about hash tables:
 
 [GeeksforGeeks - Hashing Data Structure](https://www.geeksforgeeks.org/hashing-data-structure/)
 
-[YouTube - CS50 Hash Tables](https://www.youtube.com/watch?v=nvzVHwrrub0)
+[YouTube - Hash Tables by CS50](https://www.youtube.com/watch?v=nvzVHwrrub0)
