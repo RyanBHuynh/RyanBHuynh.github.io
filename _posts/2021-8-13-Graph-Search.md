@@ -12,7 +12,8 @@ This happens until the graph has been fully explored.
 DFS is implemented with a stack.
 
 Below is an image of how DFS goes through a graph. DFS traverses the nodes 1 through 7 in order.
-<img src ="/images/Graphs/DFSTraversal.png" alt="DFS" width="350"/>
+
+<img src ="/images/Graphs/DFSTraversal.png" alt="DFS" width="600"/>
 
 DFS can be implemented recursively or iteratively. Below are the algorithms for both methods.
 The algorithms below use a graph implemented with an adjacency list.
@@ -22,7 +23,7 @@ The algorithms below use a graph implemented with an adjacency list.
 2. Create a stack. This stack stores nodes that still need to be processed.
 3. Create a list that stores whether each node has been visited yet. At this point, all of the nodes are marked as not visited.
 4. Push the first node to the stack.
-5. While the stack is not empty,
+5. While the stack is not empty:
     6. Pop the last node put in.
     7. If the popped node has not been visited, visit it and mark it as visited in the list.
     8. Create a for loop to push each node's adjacent nodes to the stack.
@@ -41,7 +42,8 @@ BFS is implemented with a queue.
 Unlike DFS, BFS can only be implemented iteratively.
 
 Below is an image of how BFS goes through a graph. BFS traverses the nodes one level out, then two levels out, then three levels out.
-<img src ="/images/Graphs/BFSTraversal.png" alt="DFS" width="350"/>
+
+<img src ="/images/Graphs/BFSTraversal.png" alt="DFS" width="600"/>
 
 We go out level by level, visiting the first node, then the nodes in the next level, and then the next level, until all of the nodes have been visited. 
 If we were to print the nodes via BFS, we would print 1, then 7,5, and 2, then 6 and 3, and then 4. 
@@ -66,7 +68,7 @@ Time complexity for both algorithms: \\(O(V + E)\\)
 
 Space complexity for both algorithms: \\(O(V)\\)
 
-\\(where \ V = number \ of \ vertices\\)
+where \\(V = number \ of \ vertices\\)
 
 \\(E = number \ of \ edges\\)
 
