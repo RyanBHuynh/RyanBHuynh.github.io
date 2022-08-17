@@ -50,3 +50,5 @@ Below are some more resources to learn about binary search trees:
 [Wikipedia - Binary Search Tree](https://en.wikipedia.org/wiki/Binary_search_tree)
 
 [Programiz - Binary Search Tree](https://www.programiz.com/dsa/binary-search-tree)
+
+[Scaler Topics - Binary Search Tree](https://www.scaler.com/topics/data-structures/binary-search-tree/)
